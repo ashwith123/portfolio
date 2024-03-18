@@ -1,0 +1,120 @@
+body{
+    background-color: black;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    padding: 10px 30%;  /*creates 10px space in bottom and top, 10% applies it for left and right*/
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+nav ul li{
+
+    display: inline;
+    margin:  20px;
+    height: 10px;
+    width: 30px;
+    
+}
+
+nav ul li a{
+     padding: 6px 12px;
+    color:grey;
+    text-decoration: none;
+    font-size: 23px;
+}
+nav ul li a:hover{
+    background-color: white;
+    border-radius: 6px;
+    transition: 1s;
+    color:black;
+}
+
+main {
+    color:white;
+   
+    margin-top: 100px;
+    margin-left: 40px;
+    
+}
+
+main h1{
+    font-style: italic;
+    text-shadow: 2px 2px 15px white;
+}
+
+main p,h1,h2{
+    margin: 0%;
+    padding: 0%;
+}
+main p{
+    font-size: 20px;
+    color: #333333;
+}
+
+/*------about------  */
+
+#about{
+    color:white;
+    margin-top: 300px;
+    margin-left: 40px;
+}
+
+#about h1{
+    margin-bottom: 200px;
+
+    align-items: center;
+    text-align: center;
+}
+#about p{
+    margin-bottom: 150px;
+
+    font-size: 20px;
+    padding:20px;
+}
+
+#about img{
+    margin-top: 0px;
+    border-radius: 50%;
+    margin-left: 400px;
+    height:60px;
+    width: 60px;
+}
+
+/*tech skills*/
+
+#skills{
+    color:white;
+    margin-top: 50px;
+    margin-left: 40px;
+    align-items: center;
+}
+
+#skills h1{
+    text-align: center;
+}
+
+#skills img{
+    border: 2px solid #333; /* Adds a 2px solid border with color #333 */
+        border-radius: 5px;
+     
+    height: 300px;
+    width: 173px;
+    margin:90px 100px;
+    display: inline;
+    object-fit: cover;
+    border-radius: 10px;
+    border-color: #333333;
+}
+#skills img:hover{
+    box-shadow: 2px 2px 5px 2px #3a3a3a;
+}
+
+
+
