@@ -116,5 +116,13 @@ main p{
     box-shadow: 2px 2px 5px 2px #3a3a3a;
 }
 
+/*boot stap*/
+
+#card{
+
+    height: 300px;
+    width: 173px;
+}
+
 
 
