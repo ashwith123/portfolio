@@ -32,7 +32,7 @@ nav ul li a{
 nav ul li a:hover{
     background-color: white;
     border-radius: 6px;
-    transition: 1s;
+    transition: 0.5s;
     color:black;
 }
 
@@ -129,6 +129,10 @@ main p{
     height: 300px;
     width: 173px;
     object-fit: cover;
+}
+.card text-bg-dark:hover{
+
+    box-shadow :2px 2px 2px 2px white;
 }
 
 
